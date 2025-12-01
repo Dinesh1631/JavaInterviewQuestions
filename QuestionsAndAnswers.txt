@@ -1,0 +1,4 @@
+1)How is Java platform-independent?
+ANS)When we compile Java code, it is converted into bytecode (.class files`), not native machine code.
+    This bytecode is executed by the Java Virtual Machine (JVM), which converts it into machine code at runtime using its interpreter and JIT compiler. 
+    Each operating system has its own JVM implementation, which makes Java platform-independent
